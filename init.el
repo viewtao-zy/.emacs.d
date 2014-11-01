@@ -100,7 +100,7 @@
 ;(require 'init-ledger)
 
 ;; my packages
-;(require 'init-evil)
+(require 'init-evil)
 ;(require 'init-latex)
 ;(require 'init-emacs-w3m)
 (require 'init-mew)
