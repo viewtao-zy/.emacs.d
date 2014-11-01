@@ -153,7 +153,6 @@
 ;;
 ;;
 (setq-default line-spacing 6)
-
 (provide 'init)
 ;;
 ;; ;; Local Variables:
