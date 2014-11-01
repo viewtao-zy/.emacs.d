@@ -62,7 +62,7 @@
 ;(require 'init-vc)
 ;(require 'init-darcs)
 (require 'init-git)
-;(require 'init-github)
+(require 'init-github)
 ;
 ;(require 'init-crontab)
 (require 'init-textile)
@@ -100,7 +100,7 @@
 ;(require 'init-ledger)
 
 ;; my packages
-;(require 'init-evil)
+(require 'init-evil)
 ;(require 'init-latex)
 ;(require 'init-emacs-w3m)
 (require 'init-mew)
