@@ -40,5 +40,4 @@
 ;; pulls in Slime
 (add-auto-mode 'clojure-mode "\\.cljs\\'")
 
-
 (provide 'init-clojure)

@@ -45,7 +45,7 @@
 ;(require 'init-dired)
 ;(require 'init-isearch)
 ;(require 'init-uniquify)
-;(require 'init-ibuffer)
+(require 'init-ibuffer)
 ;(require 'init-flycheck)
 ;
 ;(require 'init-recentf)
@@ -103,9 +103,8 @@
 (require 'init-evil)
 ;(require 'init-latex)
 ;(require 'init-emacs-w3m)
-(require 'init-mew)
+;(require 'init-mew)
 (require 'init-zencoding-mode)
-
 
 ;; Extra packages which don't require any configuration
 
