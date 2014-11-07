@@ -1,5 +1,5 @@
+(require-package 'web-mode)
 (autoload 'web-mode "web-mode")
-;(require-package 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.wp\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tmpl\\'" . web-mode))
