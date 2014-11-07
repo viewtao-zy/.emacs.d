@@ -1,4 +1,3 @@
-
 ;;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
 
@@ -45,8 +44,7 @@
 ;(require 'init-dired)
 ;(require 'init-isearch)
 ;(require 'init-uniquify)
-(require 'init-ibuffer)
-;(require 'init-flycheck)
+(require 'init-flycheck)
 ;
 ;(require 'init-recentf)
 ;(require 'init-ido)
@@ -103,9 +101,9 @@
 (require 'init-evil)
 ;(require 'init-latex)
 ;(require 'init-emacs-w3m)
-(require 'init-mew)
+;(require 'init-mew)
 (require 'init-zencoding-mode)
-
+(require 'init-web-mode)
 
 ;; Extra packages which don't require any configuration
 
