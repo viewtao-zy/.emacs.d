@@ -150,5 +150,4 @@
 ;;                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 ;;
 ;;
-(setq-default line-spacing 6)
 (provide 'init)
