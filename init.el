@@ -32,7 +32,7 @@
 (require-package 'wgrep) ;; writable grep buffer and apply the changes to the files
 ;(require-package 'project-local-variables)
 (require-package 'diminish) ;; fight modeline by removing or abbreviating minor mode indicators
-;(require-package 'scratch) ;; 
+(require-package 'scratch) ;; 
 ;(require-package 'mwe-log-commands)
 
 ;(require 'init-frame-hooks)
@@ -41,9 +41,9 @@
 (require 'init-osx-keys)
 ;(require 'init-gui-frames)
 ;(require 'init-proxies)
-;(require 'init-dired)
-;(require 'init-isearch)
-;(require 'init-uniquify)
+(require 'init-dired)
+(require 'init-isearch)
+(require 'init-uniquify)
 (require 'init-flycheck)
 ;
 ;(require 'init-recentf)
