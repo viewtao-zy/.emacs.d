@@ -99,7 +99,7 @@
 
 ;; my packages
 (require 'init-evil)
-;(require 'init-latex)
+(require 'init-latex)
 ;(require 'init-emacs-w3m)
 ;(require 'init-mew)
 (require 'init-zencoding-mode)
