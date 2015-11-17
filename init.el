@@ -43,8 +43,8 @@
 ;(require 'init-proxies)
 (require 'init-dired)
 (require 'init-isearch)
-(require 'init-uniquify)
-(require 'init-flycheck)
+;(require 'init-uniquify)
+;(require 'init-flycheck)
 ;
 ;(require 'init-recentf)
 (require 'init-ido)
@@ -60,33 +60,33 @@
 ;(require 'init-vc)
 ;(require 'init-darcs)
 (require 'init-git)
-(require 'init-github)
+;(require 'init-github)
 ;
 ;(require 'init-crontab)
 (require 'init-textile)
 (require 'init-markdown)
 ;(require 'init-csv)
 ;(require 'init-erlang)
-(require 'init-javascript)
-(require 'init-php)
+;;(require 'init-javascript)
+;;(require 'init-php)
 (require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
 (require 'init-css)
 ;(require 'init-haml)
-(require 'init-python-mode)
+;;(require 'init-python-mode)
 ;(require 'init-haskell)
 ;(require 'init-ruby-mode)
-(require 'init-rails)
-(require 'init-sql)
+;;(require 'init-rails)
+;;(require 'init-sql)
 ;
-(require 'init-paredit)
-(require 'init-lisp)
-(require 'init-slime)
-(require 'init-clojure)
-(when (>= emacs-major-version 24)
-  (require 'init-clojure-cider))
-(require 'init-common-lisp)
+;(require 'init-paredit)
+;(require 'init-lisp)
+;(require 'init-slime)
+;;(require 'init-clojure)
+;;(when (>= emacs-major-version 24)
+;;  (require 'init-clojure-cider))
+;(require 'init-common-lisp)
 ;
 ;(when *spell-check-support-enabled*
 ;  (require 'init-spelling))
@@ -99,17 +99,17 @@
 
 ;; my packages
 (require 'init-evil)
-(require 'init-latex)
-;(require 'init-emacs-w3m)
-;(require 'init-mew)
-(require 'init-zencoding-mode)
+;;(require 'init-latex)
+(require 'init-emacs-w3m)
+(require 'init-mew)
+;;(require 'init-zencoding-mode)
 (require 'init-web-mode)
 
 ;; Extra packages which don't require any configuration
 
-(require-package 'gnuplot) ;; 二维图和简单三维图的绘图工具
+;(require-package 'gnuplot) ;; 二维图和简单三维图的绘图工具
 ;;(require-package 'lua-mode)
-(require-package 'htmlize)
+;(require-package 'htmlize)
 ;; (require-package 'dsvn)
 ;; (when *is-a-mac*
 ;;   (require-package 'osx-location))
